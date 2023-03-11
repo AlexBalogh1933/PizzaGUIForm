@@ -228,8 +228,8 @@ public class PizzaGUIFrame extends JFrame
             total = subtotal + tax;
             if(selectedToppings.size() == 0){
                 receipt = String.format("==============================\n"
-                        + "%s, %s             %.2f\n"
-                        + "Sub-total:             %.2f\n"
+                        + "%s, %s             %.2f\n\n"
+                        + "Sub-total:            %.2f\n"
                         + "Tax:             %.2f\n"
                         + "------------------------------\n"
                         + "Total:             %.2f\n"
@@ -265,7 +265,7 @@ public class PizzaGUIFrame extends JFrame
                         + "%s             1.00\n"
                         + "%s             1.00\n"
                         + "%s             1.00\n\n"
-                        + "Sub-total:             %.2f\n"
+                        + "Sub-total:            %.2f\n"
                         + "Tax:             %.2f\n"
                         + "------------------------------\n"
                         + "Total:             %.2f\n"
@@ -279,7 +279,7 @@ public class PizzaGUIFrame extends JFrame
                         + "%s             1.00\n"
                         + "%s             1.00\n"
                         + "%s             1.00\n\n"
-                        + "Sub-total:             %.2f\n"
+                        + "Sub-total:            %.2f\n"
                         + "Tax:             %.2f\n"
                         + "------------------------------\n"
                         + "Total:             %.2f\n"
